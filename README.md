@@ -31,11 +31,11 @@ How to use ?
 5. Use "Pause/Resume" to control execution
 
 Sample Assembly Instructions:
-ADD R1, R2, R3    # RISC: Add R2 and R3, store in R1
-MOV MEM[1], MEM[0] # CISC: Move value from memory[0] to memory[1]
-LDR R1, 5         # Load from memory address 5 to R1
-STR R2, 10        # Store R2 to memory address 10
-BEQ R1, R2, 5     # Branch to instruction 5 if R1 equals R2
+-ADD R1, R2, R3    # RISC: Add R2 and R3, store in R1
+-MOV MEM[1], MEM[0] # CISC: Move value from memory[0] to memory[1]
+-LDR R1, 5         # Load from memory address 5 to R1
+-STR R2, 10        # Store R2 to memory address 10
+-BEQ R1, R2, 5     # Branch to instruction 5 if R1 equals R2
 
 Architecture Details
 - RISC: Emphasizes simple instructions, register-based operations
